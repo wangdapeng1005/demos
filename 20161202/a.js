@@ -13,3 +13,4 @@ log('instance of b => ' + insb)
 
 log('instance of b has method1 ? => ' + Boolean(insb.method1))
 log('b has method1 ? => ' + Boolean(b.method1))
+
