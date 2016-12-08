@@ -1,0 +1,10 @@
+<script type="text/javascript">
+    alert(456); // js从上向下执行，alert弹出
+    var foo = 'hello'; 
+    a(); // a未定义，此处报错，退出执行
+    alert('first block'); // 因上面退出执行，此处alert不弹出
+</script>
+<script type="text/javascript">
+    alert('second block'); // 这个script不受上面script错误影响，可以执行。
+    alert(foo); // 引用从第一个script中声明的foo，可以执行。
+</script>
